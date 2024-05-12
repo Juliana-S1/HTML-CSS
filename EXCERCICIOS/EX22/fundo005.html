@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alinhamento vertical</title>
+    <title>Alinhamento de Vertices</title>
     <style>
         #container{
             background-color: aqua;
+            height: 500px;
+            width: 1000px;
+            padding: 10px;
+            position: relative;
+        }
+        #conteudo{
+            background-color: purple;
+            height: 200px;
+            width: 500px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-75%, -50%);
         }
     </style>
 </head>
