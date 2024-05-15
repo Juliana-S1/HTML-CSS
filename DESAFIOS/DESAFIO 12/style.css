@@ -29,6 +29,9 @@ p>a{
     color: white;
     font-weight: bold;
 }
+a:hover{
+    text-decoration: underline;
+}
 p{
     margin: 0px;
 }
