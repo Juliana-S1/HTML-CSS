@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Teste de Formulário</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" autocomplete="off">
+        <p>
+            <label for="inome">Nome: </label> 
+            <input type="text" name="nome" id="inome" required placeholder="Nome Completo"></p>
+        <p>
+            <label for="imedia">Média: </label>
+            <input type="number" name="media" id="imedia" required step="0.1" value="5" ></p>
+        <p>
+            <label for="iano">Período Letivo: </label>
+            <input type="month" name="ano" id="iano" required value="2024-06"></p>
+        <p>
+            <label for="idata">Dia da Prova: </label>
+            <input type="date" name="data" id="idata"required value="2024-06-02"></p>
+        <p>
+            <label for="ihora">Horário da Prova: </label>
+            <input type="time" name="hora" id="ihora"required value="23:06"></p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
