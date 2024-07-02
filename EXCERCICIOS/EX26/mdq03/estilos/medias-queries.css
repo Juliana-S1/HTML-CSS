@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*Todas as demais Midias*/
+
+@media print {
+    main{
+        border: 2px solid black;
+        width: 50%;
+    }
+    main h1{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+
+
+    img#phone{display: none;}
+    img#pc{display: none;}
+    img#print{display: block;
+    margin: auto;
+    }
+    img#tablet{display: none;}
+    img#tv{display: none;}
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#phone{display: none;}
+    img#pc{display: none;}
+    img#print{display: none;}
+    img#tablet{display: block; margin: auto;}
+    img#tv{display: none;}
+}
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#phone{display: none;}
+    img#pc{display: block; margin: auto;}
+    img#print{display: none;}
+    img#tablet{display: none;}
+    img#tv{display: none;}
+}
+@media screen and (min-width: 1201px){
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    img#phone{display: none;}
+    img#pc{display: none;}
+    img#print{display: none;}
+    img#tablet{display: none;}
+    img#tv{display: block; margin: auto;}
+}
