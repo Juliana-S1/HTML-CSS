@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*Versão Para Os Demais Dispositivos*/
+
+@media screen and (min-width: 770px) {
+    header ul li{
+        display: inline-block;
+        background-color: rgb(66, 66, 66);
+        padding: 10px;
+        list-style-type: none;
+    
+    }
+    header ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    #burguer{
+        display: none;
+    }
+    main{
+        width: 768px;
+    }
+    }

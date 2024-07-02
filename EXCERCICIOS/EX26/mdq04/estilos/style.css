@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*Versão Moobile First*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: lightgray;
+}
+header{
+    background-color: darkgray;
+
+}
+header h1{
+    text-align: center;
+    padding: 10px;
+}
+
+header ul li{
+    display: none;
+}
+#burguer{
+    background-color: darkgray;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+main{
+    display: block;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.803);
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+main article h2{
+    padding-bottom: 20px;
+}
+main article p{
+    margin-bottom: 20px;
+    text-indent: 20px;
+    text-align: justify;
+}
